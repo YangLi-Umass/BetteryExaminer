@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.umass.yli0.testgooglemap.MapsActivity">
+
+    <item android:id="@+id/mapLegendRed"
+        android:icon="@drawable/ic_place_red_24dp"
+        android:title="My location"
+        app:showAsAction="withText|always" />
+    <item android:id="@+id/mapLegendGreen"
+        android:icon="@drawable/ic_place_green_24dp"
+        android:title="Scanned Tags"
+        app:showAsAction="withText|always"/>
+    <item android:id="@+id/mapLegendYellow"
+        android:icon="@drawable/ic_place_yellow_24dp"
+        android:title="Remaining Tags"
+        app:showAsAction="withText|always"/>
+    <item android:id="@+id/action_upload"
+        android:icon="@drawable/ic_file_upload_white_24dp"
+        app:showAsAction="always"
+        android:title="Upload" />
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Add Tags" />
+    <item android:id="@+id/action_remove"
+        android:icon="@drawable/ic_remove_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Remove Tags" />
+    <item android:id="@+id/action_replace"
+        android:icon="@drawable/ic_replace_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Replace Tags" />
+
+</menu>
